@@ -12,7 +12,7 @@ services:
       interval: 10s
       timeout: 10s
       retries: 5
-      start_period: 10s
+      start_period: 90s
 
   # Redis: Event message broker & KV store
   redis:
