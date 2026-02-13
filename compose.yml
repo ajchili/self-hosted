@@ -3,7 +3,7 @@ name: stoat
 services:
   # MongoDB: Database
   database:
-    image: arm64v8/mongo:8.2.5
+    image: mongo:4.4
     restart: always
     volumes:
       - ./data/db:/data/db
